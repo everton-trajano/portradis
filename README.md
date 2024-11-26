@@ -1,52 +1,52 @@
 # Portradis
 
-**Portradis** (PORtfolio TRAjano DIctionary Server) é um remake simplificado do Redis, desenvolvido em Go. Este projeto tem como objetivo recriar algumas das funcionalidades básicas do Redis para estudo e demonstração de habilidades em desenvolvimento backend, estruturação de código e uso de boas práticas.
+**Portradis (PORtfolio TRAjano DIctionary Server) is a simplified remake of Redis, developed in Go. This project aims to recreate some of the basic features of Redis to study and demonstrate skills in backend development, code structuring and the use of good practices.
 
-## Sobre o Projeto
+## About the project
 
-O Redis é um banco de dados de estrutura chave-valor amplamente utilizado devido à sua alta performance e versatilidade. O Portradis foi criado como uma implementação educacional e simplificada, permitindo entender os conceitos fundamentais por trás de um servidor de banco de dados similar ao Redis.
+Redis is a key-value structure database that is widely used due to its high performance and versatility. Portradis was created as an educational and simplified implementation, allowing you to understand the fundamental concepts behind a database server similar to Redis.
 
-## Funcionalidades
+## Features
 
-- Integração funcional com redis-cli.
-- Servidor HTTP para operações básicas de armazenamento de dados.
-- Manipulação de estruturas chave-valor.
-- Código modular e organizado para fácil extensão.
+- Functional integration with redis-cli.
+- HTTP server for basic data storage operations.
+- Handling of key-value structures.
+- Modular and organized code for easy extension.
 
-## Requisitos
+## Requirements
 
-- **Go** (versão 1.20+ recomendada)
-- Qualquer sistema operacional compatível com Go.
+- Go (version 1.20+ recommended)
+- Any Go-compatible operating system.
 
-## Instalação
+## Installation
 
-1. Clone este repositório:
+1. Clone this repository:
   ```bash
 
    git clone https://github.com/everton-trajano/portradis.git
 ```
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
   ```bash
 
   cd portradis
   ```
-3. Instale as dependências:
+3. Install the dependencies:
   ```bash
 
   go mod tidy
   ```
-4. Para iniciar o servidor, use:
+4. To start the server, use:
   ```bash
 
   go run main.go
   ```
 
-## Estrutura do Projeto
+## Project structure
 
-   * app/: Código principal da aplicação.
-   * commands/: Scripts de inicialização e configuração.
-   * tools/: Ferramentas e utilitários auxiliares.
+   * app/: Main application code.
+   * commands/: Initialization and configuration scripts.
+   * tools/: Auxiliary tools and utilities.
 
-## Contribuição
+## Contribution
 
-Sinta-se à vontade para abrir issues e pull requests. Feedbacks são sempre bem-vindos!
+Feel free to open issues and pull requests. Feedback is always welcome!
