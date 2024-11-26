@@ -1,7 +1,7 @@
 # Portradis
 
 **Portradis (PORtfolio TRAjano DIctionary Server)** is a simplified remake of Redis, developed in Go. This project aims to recreate some of the basic features of Redis to study and demonstrate skills in backend development, code structuring and the use of good practices.
-[Portuguese version](https://github.com/everton-trajano/portradis/blob/main/README.md)
+[Portuguese version](https://github.com/everton-trajano/portradis/blob/main/README-br.md)
 
 ## About the project
 
